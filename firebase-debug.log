@@ -1,0 +1,17 @@
+[debug] [2018-06-25T09:47:04.569Z] ----------------------------------------------------------------------
+[debug] [2018-06-25T09:47:04.572Z] Command:       /usr/local/Cellar/node/9.5.0/bin/node /usr/local/bin/firebase deploy
+[debug] [2018-06-25T09:47:04.572Z] CLI Version:   3.19.0
+[debug] [2018-06-25T09:47:04.572Z] Platform:      darwin
+[debug] [2018-06-25T09:47:04.572Z] Node Version:  v9.5.0
+[debug] [2018-06-25T09:47:04.572Z] Time:          Mon Jun 25 2018 12:47:04 GMT+0300 (IDT)
+[debug] [2018-06-25T09:47:04.572Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-06-25T09:47:04.584Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-06-25T09:47:04.584Z] > authorizing via signed-in user
+[debug] [2018-06-25T09:47:04.586Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/cloudinarymarketplace  
+  
+ Mon Jun 25 2018 12:47:04 GMT+0300 (IDT)
+[debug] [2018-06-25T09:47:05.590Z] <<< HTTP RESPONSE 200
+[debug] [2018-06-25T09:47:05.591Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/cloudinarymarketplace/tokens  
+  
+ Mon Jun 25 2018 12:47:05 GMT+0300 (IDT)
