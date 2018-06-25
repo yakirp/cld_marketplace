@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Navigation from './Navigation.js'
+import { Route, Link} from 'react-router-dom';
 
 import {
   BrowserRouter as Router,
@@ -28,6 +30,10 @@ class App extends Component {
             <FlashMessage />
             <Route exact path="/" component={() => 
               <h1 className="content">Welcome, Home!</h1>} />
+                <header className="App-header">
+          <img className="left" src="https://res.cloudinary.com/cloudinary/image/upload/c_scale,w_200/v1/logo/for_white_bg/cloudinary_logo_for_white_bg.png" />
+       </header>
+        <Route exact={true} path={'/'} component={Navigation}/>
             <Route exact path="/login" component={() => <Login />} />
             <Route exact path="/signup" component={() => <Signup />} />
             <Router exact path="/dashboard" component={() => <Consumer>
